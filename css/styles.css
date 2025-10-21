@@ -1,0 +1,65 @@
+/* ICONS */
+.section-icons {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-container {
+    display: grid;
+    grid-template-columns: repeat(4, 150px);
+    grid-template-rows: repeat(2, 150px);
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.icon-box {
+    border-radius: 30%;
+    overflow: hidden;
+    
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    &:hover {
+        transform: scale(1.1);
+    }
+}
+
+/* CARTAS */
+.perso-container {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.perso {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 20px;
+}
+
+.perso img {
+    width: 400px;
+    height: 600px;
+    object-fit: cover;
+}
+
+.perso-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+
+    p {
+        width: 400px;
+    }
+}
